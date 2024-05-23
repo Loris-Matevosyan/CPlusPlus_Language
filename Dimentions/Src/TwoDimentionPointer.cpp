@@ -1,6 +1,7 @@
 #include "TwoDimention.h"
 #include <iostream>
 
+
 void print2dPointer(int** twoDimentionPointer, int rowSize, int columnSize) {
     int element{0};
     for(int i = 0; i < rowSize; ++i) {
@@ -13,6 +14,7 @@ void print2dPointer(int** twoDimentionPointer, int rowSize, int columnSize) {
         std::cout << std::endl;
     }
 }
+
 
 void twoDimentionPointerExample() {
 

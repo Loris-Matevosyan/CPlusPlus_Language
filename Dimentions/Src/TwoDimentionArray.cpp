@@ -1,6 +1,7 @@
 #include "TwoDimention.h"
 #include <iostream>
 
+
 void print2dArray(int twoDimentionArray[][5], int rowSize) {
     int element{0};
     for(int i = 0; i < rowSize; ++i) {
@@ -13,6 +14,7 @@ void print2dArray(int twoDimentionArray[][5], int rowSize) {
         std::cout << std::endl;
     }
 }
+
 
 void twoDimentionArrayExample() {
 
